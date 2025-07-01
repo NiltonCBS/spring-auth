@@ -50,7 +50,7 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        config.setAllowedOrigins(List.of("http://localhost:4200")); // Front-end Angular
+        config.setAllowedOrigins(List.of("http://localhost:5173")); // Front-end Angular
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*")); // Permite todos os headers
         config.setExposedHeaders(List.of("Authorization")); // Opcional: expõe headers como Authorization

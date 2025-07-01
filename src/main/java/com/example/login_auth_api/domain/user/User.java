@@ -1,9 +1,13 @@
 package com.example.login_auth_api.domain.user;
 
+import com.example.login_auth_api.domain.despesa.Despesa;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data

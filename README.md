@@ -56,20 +56,35 @@ cd spring-auth
 ## 📂 Estrutura de Pastas
 
 spring-auth/
+
 ├── src/
+
 │   ├── main/
+
 │   │   ├── java/com/example/login_auth_api/
+
 │   │   │   ├── controllers/       # Controladores HTTP
+
 │   │   │   ├── domain/            # Modelos (User, Despesa)
+
 │   │   │       ├── despesa/
+
 │   │   │       ├── user/
+
 │   │   │   ├── dto/               # Transporta os dados entre diferentes componentes
+
 │   │   │   ├── infra/             # JWT, autenticação, filtros
+
 │   │   │       ├── cors/          # Segurança de requisições
+
 │   │   │       ├── security/
+
 │   │   │   └── repositories/      # Interfaces de acesso ao banco
+
 │   │   └── resources/
+
 │   │       └── application.properties
+
 └── pom.xml
 
 ## 📑 Endpoints Principais
